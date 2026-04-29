@@ -1,0 +1,18 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"E:/Code/Unreal project/InventoryProject/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Player/BP_Inv_PlayerController.uasset",
+				"E:/Code/Unreal project/InventoryProject/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
+				"E:/Code/Unreal project/InventoryProject/Content/ThirdPerson/Blueprints/BP_Inv_GameMode.uasset",
+				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Input/IA_PrimaryInteract.uasset",
+				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Input/IMC_Default.uasset",
+				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Player/BP_InvPlayerController.uasset"
+			]
+		}
+	]
+}

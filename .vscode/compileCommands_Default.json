@@ -1,0 +1,98 @@
+[
+	{
+		"file": "E:\\Code\\Unreal project\\InventoryProject\\Plugins\\Inventory\\Source\\Inventory\\Inventory.Build.cs",
+		"arguments": [
+			"E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Code\\Unreal project\\InventoryProject\\.vscode\\compileCommands_Default\\Inventory.29.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Code\\Unreal project\\InventoryProject\\Plugins\\Inventory\\Source\\Inventory\\Private\\Inventory.cpp",
+		"arguments": [
+			"E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Code\\Unreal project\\InventoryProject\\.vscode\\compileCommands_Default\\Inventory.29.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Code\\Unreal project\\InventoryProject\\Plugins\\Inventory\\Source\\Inventory\\Private\\Player\\Inv_PlayerController.cpp",
+		"arguments": [
+			"E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Code\\Unreal project\\InventoryProject\\.vscode\\compileCommands_Default\\Inventory.29.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Code\\Unreal project\\InventoryProject\\Plugins\\Inventory\\Source\\Inventory\\Public\\Inventory.h",
+		"arguments": [
+			"E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Code\\Unreal project\\InventoryProject\\.vscode\\compileCommands_Default\\Inventory.29.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Code\\Unreal project\\InventoryProject\\Plugins\\Inventory\\Source\\Inventory\\Public\\Player\\Inv_PlayerController.h",
+		"arguments": [
+			"E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Code\\Unreal project\\InventoryProject\\.vscode\\compileCommands_Default\\Inventory.29.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Code\\Unreal project\\InventoryProject\\Source\\InventoryProject\\InventoryProject.Build.cs",
+		"arguments": [
+			"E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Code\\Unreal project\\InventoryProject\\.vscode\\compileCommands_Default\\InventoryProject.1.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Code\\Unreal project\\InventoryProject\\Source\\InventoryProject\\InventoryProject.cpp",
+		"arguments": [
+			"E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Code\\Unreal project\\InventoryProject\\.vscode\\compileCommands_Default\\InventoryProject.1.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Code\\Unreal project\\InventoryProject\\Source\\InventoryProject\\InventoryProject.h",
+		"arguments": [
+			"E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Code\\Unreal project\\InventoryProject\\.vscode\\compileCommands_Default\\InventoryProject.1.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Code\\Unreal project\\InventoryProject\\Source\\InventoryProject\\InventoryProjectCharacter.cpp",
+		"arguments": [
+			"E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Code\\Unreal project\\InventoryProject\\.vscode\\compileCommands_Default\\InventoryProject.1.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Code\\Unreal project\\InventoryProject\\Source\\InventoryProject\\InventoryProjectCharacter.h",
+		"arguments": [
+			"E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Code\\Unreal project\\InventoryProject\\.vscode\\compileCommands_Default\\InventoryProject.1.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Code\\Unreal project\\InventoryProject\\Source\\InventoryProject\\InventoryProjectGameMode.cpp",
+		"arguments": [
+			"E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Code\\Unreal project\\InventoryProject\\.vscode\\compileCommands_Default\\InventoryProject.1.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Code\\Unreal project\\InventoryProject\\Source\\InventoryProject\\InventoryProjectGameMode.h",
+		"arguments": [
+			"E:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@E:\\Code\\Unreal project\\InventoryProject\\.vscode\\compileCommands_Default\\InventoryProject.1.rsp"
+		],
+		"directory": "E:\\Epic Games\\UE_5.5\\Engine\\Source"
+	}
+]

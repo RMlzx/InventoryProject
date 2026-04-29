@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\InventoryProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\InventoryProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\InventoryProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.ignore" />
+    <None Include="..\..\InventoryProject.code-workspace" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Inventory">
+      <UniqueIdentifier>{B32F4D9A-B249-32AC-B0D9-C4AF5957AD7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Inventory\Source">
+      <UniqueIdentifier>{F0827E7D-8B98-3E76-8D0D-15D0B0A50A2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Inventory\Source\Inventory">
+      <UniqueIdentifier>{52AC492C-31B6-329D-940C-C42451FF0503}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Inventory\Source\Inventory\Inventory.Build.cs">
+      <Filter>Plugins\Inventory\Source\Inventory</Filter>
+    </None>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private">
+      <UniqueIdentifier>{AF7388B2-F2EA-33F7-AFB9-8336C6EB5F8E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Inventory.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\Player">
+      <UniqueIdentifier>{BF87602A-33C7-3236-9F08-77440888A420}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Player\Inv_PlayerController.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\Player</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public">
+      <UniqueIdentifier>{18D72972-836F-32FE-AFA3-E1175457F503}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Public\Inventory.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\Player">
+      <UniqueIdentifier>{04814899-3FFD-3067-A974-4A62053EBBA5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Public\Player\Inv_PlayerController.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\Player</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\Inventory\Inventory.uplugin">
+      <Filter>Plugins\Inventory</Filter>
+    </None>
+    <Filter Include="Plugins\Inventory\Resources">
+      <UniqueIdentifier>{FF9AAFB5-C24C-3B72-A5A1-EF087DFF3028}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Inventory\Resources\Icon128.png">
+      <Filter>Plugins\Inventory\Resources</Filter>
+    </None>
+    <Filter Include="Source\InventoryProject">
+      <UniqueIdentifier>{6B0466FE-0C03-3C97-B404-1E89E2840F49}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\InventoryProject\InventoryProject.Build.cs">
+      <Filter>Source\InventoryProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\InventoryProject\InventoryProject.cpp">
+      <Filter>Source\InventoryProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\InventoryProject\InventoryProject.h">
+      <Filter>Source\InventoryProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\InventoryProject\InventoryProjectCharacter.cpp">
+      <Filter>Source\InventoryProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\InventoryProject\InventoryProjectCharacter.h">
+      <Filter>Source\InventoryProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\InventoryProject\InventoryProjectGameMode.cpp">
+      <Filter>Source\InventoryProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\InventoryProject\InventoryProjectGameMode.h">
+      <Filter>Source\InventoryProject</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
