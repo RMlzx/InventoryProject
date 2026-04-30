@@ -11,6 +11,17 @@
 				"E:/Code/Unreal project/InventoryProject/Content/ThirdPerson/Blueprints/BP_Inv_GameMode.uasset",
 				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Input/IA_PrimaryInteract.uasset",
 				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Input/IMC_Default.uasset",
+				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Widgets/HUD/WBP_Inv_HUDWidget.uasset",
+				"E:/Code/Unreal project/InventoryProject/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Items/BP_Inv_Potion_Small_Redl.uasset",
+				"E:/Code/Unreal project/InventoryProject/Content/InventoryAssets/Consumables/SM_SmallPotion_Red.uasset",
+				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Widgets/HUD/WBP_Inv_PickupMessage.uasset",
+				"E:/Code/Unreal project/InventoryProject/Content/InventoryAssets/Effects/Outline/M_Outline.uasset",
+				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Items/Components/BP_Inv_ItemComponent.uasset",
+				"E:/Code/Unreal project/InventoryProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/KV/83TIE7WC9XBMQP4WNQC0QP.uasset",
+				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Items/Components/BP_Inv_Highlightable.uasset",
+				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Items/Components/BP_Inv_HighlightableMesh.uasset",
+				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Widgets/HUD/BP_Inv_HUDWidget.uasset",
 				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Player/BP_InvPlayerController.uasset"
 			]
 		}

@@ -11,8 +11,12 @@
     <None Include="..\..\Source\InventoryProjectEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <None Include="..\..\.ignore" />
+    <None Include="..\..\.vsconfig" />
     <None Include="..\..\InventoryProject.code-workspace" />
+    <None Include="..\..\README.md" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -58,6 +62,15 @@
     <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Player\Inv_PlayerController.cpp">
       <Filter>Plugins\Inventory\Source\Inventory\Private\Player</Filter>
     </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\Widgets">
+      <UniqueIdentifier>{69E534D8-FF00-350D-8037-FF858C4727F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\Widgets\HUD">
+      <UniqueIdentifier>{60B6B70F-C12B-3152-8CD5-0C098437C2BC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Widgets\HUD\Inv_HUDWidget.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\Widgets\HUD</Filter>
+    </ClCompile>
     <Filter Include="Plugins\Inventory\Source\Inventory\Public">
       <UniqueIdentifier>{18D72972-836F-32FE-AFA3-E1175457F503}</UniqueIdentifier>
     </Filter>
@@ -69,6 +82,15 @@
     </Filter>
     <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Public\Player\Inv_PlayerController.h">
       <Filter>Plugins\Inventory\Source\Inventory\Public\Player</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\Widgets">
+      <UniqueIdentifier>{67881257-0F4C-343B-8149-18F23963A511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\Widgets\HUD">
+      <UniqueIdentifier>{56AC0AB7-6ED0-32D4-A13C-E287F447032E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Public\Widgets\HUD\Inv_HUDWidget.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\Widgets\HUD</Filter>
     </ClCompile>
     <None Include="..\..\Plugins\Inventory\Inventory.uplugin">
       <Filter>Plugins\Inventory</Filter>

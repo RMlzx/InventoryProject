@@ -10,6 +10,8 @@ public class Inventory : ModuleRules
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 			PublicIncludePaths.Add(Path.Combine(ModuleDirectory, "Public"));
 			PrivateIncludePaths.Add(Path.Combine(ModuleDirectory, "Private"));
+
+		PublicSystemIncludePaths.Add(Path.Combine(EngineDirectory, "Source", "ThirdParty", "Microsoft", "GSL", "include"));
 		
 		PublicIncludePaths.AddRange(
 			new string[] {
@@ -43,6 +45,7 @@ public class Inventory : ModuleRules
 				"SlateCore",
 				"EnhancedInput", 
 				"InputCore",
+				"UMG"
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
