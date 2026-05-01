@@ -21,9 +21,44 @@ INVENTORY_API UClass* Z_Construct_UClass_UInv_HUDWidget_NoRegister();
 UPackage* Z_Construct_UPackage__Script_Inventory();
 // End Cross Module References
 
+// Begin Class AInv_PlayerController Function ToggleInventory
+struct Z_Construct_UFunction_AInv_PlayerController_ToggleInventory_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Inventory" },
+		{ "ModuleRelativePath", "Public/Player/Inv_PlayerController.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AInv_PlayerController_ToggleInventory_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AInv_PlayerController, nullptr, "ToggleInventory", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AInv_PlayerController_ToggleInventory_Statics::Function_MetaDataParams), Z_Construct_UFunction_AInv_PlayerController_ToggleInventory_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UFunction_AInv_PlayerController_ToggleInventory()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AInv_PlayerController_ToggleInventory_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AInv_PlayerController::execToggleInventory)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->ToggleInventory();
+	P_NATIVE_END;
+}
+// End Class AInv_PlayerController Function ToggleInventory
+
 // Begin Class AInv_PlayerController
 void AInv_PlayerController::StaticRegisterNativesAInv_PlayerController()
 {
+	UClass* Class = AInv_PlayerController::StaticClass();
+	static const FNameNativePtrPair Funcs[] = {
+		{ "ToggleInventory", &AInv_PlayerController::execToggleInventory },
+	};
+	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
 IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(AInv_PlayerController);
 UClass* Z_Construct_UClass_AInv_PlayerController_NoRegister()
@@ -59,6 +94,16 @@ struct Z_Construct_UClass_AInv_PlayerController_Statics
 		{ "ModuleRelativePath", "Public/Player/Inv_PlayerController.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "\xe8\xbe\x93\xe5\x85\xa5\xe6\x8c\x89\xe9\x94\xae\xe7\xbb\x91\xe5\xae\x9a" },
+#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ToggleInventoryAction_MetaData[] = {
+		{ "Category", "Inventory" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//\xe4\xbb\x93\xe5\xba\x93\xe8\xbe\x93\xe5\x85\xa5\xe6\x8c\x89\xe9\x94\xae\xe7\xbb\x91\xe5\xae\x9a\n" },
+#endif
+		{ "ModuleRelativePath", "Public/Player/Inv_PlayerController.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "\xe4\xbb\x93\xe5\xba\x93\xe8\xbe\x93\xe5\x85\xa5\xe6\x8c\x89\xe9\x94\xae\xe7\xbb\x91\xe5\xae\x9a" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HUDWidgetClass_MetaData[] = {
@@ -104,12 +149,17 @@ struct Z_Construct_UClass_AInv_PlayerController_Statics
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_DefaultIMC;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_PrimaryInteractAction;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_ToggleInventoryAction;
 	static const UECodeGen_Private::FClassPropertyParams NewProp_HUDWidgetClass;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_HUDWidget;
 	static const UECodeGen_Private::FDoublePropertyParams NewProp_TraceLength;
 	static const UECodeGen_Private::FBytePropertyParams NewProp_ItemTraceChannel;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
+	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_AInv_PlayerController_ToggleInventory, "ToggleInventory" }, // 2901431171
+	};
+	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AInv_PlayerController>::IsAbstract,
 	};
@@ -117,6 +167,7 @@ struct Z_Construct_UClass_AInv_PlayerController_Statics
 };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInv_PlayerController_Statics::NewProp_DefaultIMC = { "DefaultIMC", nullptr, (EPropertyFlags)0x0144000000010001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AInv_PlayerController, DefaultIMC), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DefaultIMC_MetaData), NewProp_DefaultIMC_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInv_PlayerController_Statics::NewProp_PrimaryInteractAction = { "PrimaryInteractAction", nullptr, (EPropertyFlags)0x0144000000010001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AInv_PlayerController, PrimaryInteractAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PrimaryInteractAction_MetaData), NewProp_PrimaryInteractAction_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInv_PlayerController_Statics::NewProp_ToggleInventoryAction = { "ToggleInventoryAction", nullptr, (EPropertyFlags)0x0144000000010001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AInv_PlayerController, ToggleInventoryAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ToggleInventoryAction_MetaData), NewProp_ToggleInventoryAction_MetaData) };
 const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AInv_PlayerController_Statics::NewProp_HUDWidgetClass = { "HUDWidgetClass", nullptr, (EPropertyFlags)0x0044000000010001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AInv_PlayerController, HUDWidgetClass), Z_Construct_UClass_UClass, Z_Construct_UClass_UInv_HUDWidget_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_HUDWidgetClass_MetaData), NewProp_HUDWidgetClass_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInv_PlayerController_Statics::NewProp_HUDWidget = { "HUDWidget", nullptr, (EPropertyFlags)0x0144000000080008, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AInv_PlayerController, HUDWidget), Z_Construct_UClass_UInv_HUDWidget_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_HUDWidget_MetaData), NewProp_HUDWidget_MetaData) };
 const UECodeGen_Private::FDoublePropertyParams Z_Construct_UClass_AInv_PlayerController_Statics::NewProp_TraceLength = { "TraceLength", nullptr, (EPropertyFlags)0x0040000000010001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AInv_PlayerController, TraceLength), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TraceLength_MetaData), NewProp_TraceLength_MetaData) };
@@ -124,6 +175,7 @@ const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_AInv_PlayerContr
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AInv_PlayerController_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInv_PlayerController_Statics::NewProp_DefaultIMC,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInv_PlayerController_Statics::NewProp_PrimaryInteractAction,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInv_PlayerController_Statics::NewProp_ToggleInventoryAction,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInv_PlayerController_Statics::NewProp_HUDWidgetClass,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInv_PlayerController_Statics::NewProp_HUDWidget,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInv_PlayerController_Statics::NewProp_TraceLength,
@@ -140,11 +192,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AInv_PlayerController_S
 	"Game",
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
-	nullptr,
+	FuncInfo,
 	Z_Construct_UClass_AInv_PlayerController_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
-	0,
+	UE_ARRAY_COUNT(FuncInfo),
 	UE_ARRAY_COUNT(Z_Construct_UClass_AInv_PlayerController_Statics::PropPointers),
 	0,
 	0x009002A4u,
@@ -170,10 +222,10 @@ AInv_PlayerController::~AInv_PlayerController() {}
 struct Z_CompiledInDeferFile_FID_Code_Unreal_project_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Player_Inv_PlayerController_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AInv_PlayerController, AInv_PlayerController::StaticClass, TEXT("AInv_PlayerController"), &Z_Registration_Info_UClass_AInv_PlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AInv_PlayerController), 2756244646U) },
+		{ Z_Construct_UClass_AInv_PlayerController, AInv_PlayerController::StaticClass, TEXT("AInv_PlayerController"), &Z_Registration_Info_UClass_AInv_PlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AInv_PlayerController), 1025075475U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Code_Unreal_project_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Player_Inv_PlayerController_h_1662144514(TEXT("/Script/Inventory"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Code_Unreal_project_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Player_Inv_PlayerController_h_815299650(TEXT("/Script/Inventory"),
 	Z_CompiledInDeferFile_FID_Code_Unreal_project_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Player_Inv_PlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Code_Unreal_project_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Player_Inv_PlayerController_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

@@ -7,6 +7,7 @@
 #include "Inv_PlayerController.generated.h"
 
 class UInputMappingContext;
+class UInv_InventoryComponent;
 class UInputAction;
 class UInv_HUDWidget;
 /**
@@ -20,6 +21,9 @@ public:
 	AInv_PlayerController();
 	// 允许每帧调用 Tick
 	virtual void Tick(float DeltaTime) override;
+	UFUNCTION(BlueprintCallable, Category = "Inventory")
+	void ToggleInventory();
+
 protected:
 	//初始化
 	virtual void BeginPlay() override;
@@ -30,6 +34,7 @@ private:
 	void CreateHUDWidget();
 	void TraceForItem();
 	
+	TWeakObjectPtr<UInv_InventoryComponent> InventoryComponent; //玩家的库存组件
 	
 	//蓝图类配置属性
 	
@@ -38,6 +43,9 @@ private:
 	//输入按键绑定
 	UPROPERTY(EditDefaultsOnly, Category = "Inventory")
 	TObjectPtr<UInputAction> PrimaryInteractAction;
+	//仓库输入按键绑定
+	UPROPERTY(EditDefaultsOnly, Category = "Inventory")
+	TObjectPtr<UInputAction> ToggleInventoryAction;
 	//HUD十字准星视图绑定
 	UPROPERTY(EditDefaultsOnly, Category = "Inventory")
 	TSubclassOf<UInv_HUDWidget> HUDWidgetClass;

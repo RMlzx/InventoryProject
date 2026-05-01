@@ -56,6 +56,33 @@
     <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Inventory.cpp">
       <Filter>Plugins\Inventory\Source\Inventory\Private</Filter>
     </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\Interaction">
+      <UniqueIdentifier>{406B9300-64F9-38F0-8430-D98D088B7DFC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Interaction\Inv_Highlightable.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Interaction\Inv_HighlightableStaticMesh.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\Interaction</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\InventoryManagement">
+      <UniqueIdentifier>{C23A84D4-9DD7-3387-84D4-740CDD410731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\InventoryManagement\Components">
+      <UniqueIdentifier>{EDDF8B5C-9D10-3300-BF86-9CDE3E2E09BC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\InventoryManagement\Components\Inv_InventoryComponent.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\InventoryManagement\Components</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\Items">
+      <UniqueIdentifier>{0C02FA2D-DEF1-3B4D-AA91-E29B3434AB88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\Items\Components">
+      <UniqueIdentifier>{8E4AA415-C1C9-36DD-AF3D-4C74EC02B942}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Items\Components\Inv_ItemComponent.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\Items\Components</Filter>
+    </ClCompile>
     <Filter Include="Plugins\Inventory\Source\Inventory\Private\Player">
       <UniqueIdentifier>{BF87602A-33C7-3236-9F08-77440888A420}</UniqueIdentifier>
     </Filter>
@@ -71,11 +98,53 @@
     <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Widgets\HUD\Inv_HUDWidget.cpp">
       <Filter>Plugins\Inventory\Source\Inventory\Private\Widgets\HUD</Filter>
     </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\Widgets\Inventory">
+      <UniqueIdentifier>{2073737D-EE25-3EEE-AB9C-947BDF03695E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\Widgets\Inventory\InventoryBase">
+      <UniqueIdentifier>{A202CB7E-489D-3728-A0B9-0596F587925A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Widgets\Inventory\InventoryBase\Inv_InventoryBase.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\Widgets\Inventory\InventoryBase</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\Widgets\Inventory\Spatial">
+      <UniqueIdentifier>{4C099318-DDED-3741-8990-DC73771E6FC2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Widgets\Inventory\Spatial\Inv_SpatialInventory.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\Widgets\Inventory\Spatial</Filter>
+    </ClCompile>
     <Filter Include="Plugins\Inventory\Source\Inventory\Public">
       <UniqueIdentifier>{18D72972-836F-32FE-AFA3-E1175457F503}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Public\Inventory.h">
       <Filter>Plugins\Inventory\Source\Inventory\Public</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\Interaction">
+      <UniqueIdentifier>{E6F2686C-CFB2-3632-B339-49D6BA79513C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Public\Interaction\Inv_Highlightable.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Public\Interaction\Inv_HighlightableStaticMesh.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\Interaction</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\InventoryManagement">
+      <UniqueIdentifier>{DE085EE9-280C-3185-AF06-33A22BDC8B9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\InventoryManagement\Components">
+      <UniqueIdentifier>{94E325F5-2FA1-3183-ABD5-A517CA40BA9F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Public\InventoryManagement\Components\Inv_InventoryComponent.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\InventoryManagement\Components</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\Items">
+      <UniqueIdentifier>{C8640800-03F0-3589-BB15-B959540B9F90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\Items\Components">
+      <UniqueIdentifier>{430EAD15-7537-3AEB-B915-AEB479186A18}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Public\Items\Components\Inv_ItemComponent.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\Items\Components</Filter>
     </ClCompile>
     <Filter Include="Plugins\Inventory\Source\Inventory\Public\Player">
       <UniqueIdentifier>{04814899-3FFD-3067-A974-4A62053EBBA5}</UniqueIdentifier>
@@ -91,6 +160,21 @@
     </Filter>
     <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Public\Widgets\HUD\Inv_HUDWidget.h">
       <Filter>Plugins\Inventory\Source\Inventory\Public\Widgets\HUD</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\Widgets\Inventory">
+      <UniqueIdentifier>{3CE2BA94-19E3-31EE-8C1C-5A2609FD3D26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\Widgets\Inventory\InventoryBase">
+      <UniqueIdentifier>{758951AC-BA92-3761-B404-70C4766B07F4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Public\Widgets\Inventory\InventoryBase\Inv_InventoryBase.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\Widgets\Inventory\InventoryBase</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\Widgets\Inventory\Spatial">
+      <UniqueIdentifier>{B0B0C2D9-21D4-395D-9BA1-65B570F6BB11}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Public\Widgets\Inventory\Spatial\Inv_SpatialInventory.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\Widgets\Inventory\Spatial</Filter>
     </ClCompile>
     <None Include="..\..\Plugins\Inventory\Inventory.uplugin">
       <Filter>Plugins\Inventory</Filter>

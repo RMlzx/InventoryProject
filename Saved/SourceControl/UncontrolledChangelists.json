@@ -19,8 +19,10 @@
 				"E:/Code/Unreal project/InventoryProject/Content/InventoryAssets/Effects/Outline/M_Outline.uasset",
 				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Items/Components/BP_Inv_ItemComponent.uasset",
 				"E:/Code/Unreal project/InventoryProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/KV/83TIE7WC9XBMQP4WNQC0QP.uasset",
-				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Items/Components/BP_Inv_Highlightable.uasset",
 				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Items/Components/BP_Inv_HighlightableMesh.uasset",
+				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Widgets/Inventory/WBP_Inv_SpatialInventory.uasset",
+				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Input/IA_ToggleInventory.uasset",
+				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Items/Components/BP_Inv_Highlightable.uasset",
 				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Widgets/HUD/BP_Inv_HUDWidget.uasset",
 				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Player/BP_InvPlayerController.uasset"
 			]
