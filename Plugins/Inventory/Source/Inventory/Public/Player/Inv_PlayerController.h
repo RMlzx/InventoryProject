@@ -3,7 +3,6 @@
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
 #include "UObject/ObjectPtr.h"
-#include <Widgets/HUD/Inv_HUDWidget.h>
 #include "Inv_PlayerController.generated.h"
 
 class UInputMappingContext;

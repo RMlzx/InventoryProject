@@ -10,8 +10,6 @@ public class Inventory : ModuleRules
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 			PublicIncludePaths.Add(Path.Combine(ModuleDirectory, "Public"));
 			PrivateIncludePaths.Add(Path.Combine(ModuleDirectory, "Private"));
-
-		PublicSystemIncludePaths.Add(Path.Combine(EngineDirectory, "Source", "ThirdParty", "Microsoft", "GSL", "include"));
 		
 		PublicIncludePaths.AddRange(
 			new string[] {

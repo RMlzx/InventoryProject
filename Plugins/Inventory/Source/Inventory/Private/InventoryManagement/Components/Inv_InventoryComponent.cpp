@@ -3,7 +3,6 @@
 
 #include "InventoryManagement/Components/Inv_InventoryComponent.h"
 
-#include "Runtime/Online/XMPP/Public/XmppMultiUserChat.h"
 #include "Widgets/Inventory/InventoryBase/Inv_InventoryBase.h"
 
 
@@ -12,6 +11,7 @@ UInv_InventoryComponent::UInv_InventoryComponent()
 {
 
 	PrimaryComponentTick.bCanEverTick = false;
+	bInventoryMenuOpen = false;
 
 	// ...
 }
@@ -42,12 +42,16 @@ void UInv_InventoryComponent::BeginPlay()
 void UInv_InventoryComponent::ConstructInventory()
 {
 	OwningController = Cast<APlayerController>(GetOwner());
-	checkf(OwningController.IsValid(), TEXT("Inventory Component should have a Player Controller as Owner."))
+	checkf(OwningController.IsValid(), TEXT("Inventory Component should have a Player Controller as Owner."));
 	if (!OwningController->IsLocalController()) return;
+	if (!InventoryMenuClass) return;
 
 	InventoryMenu = CreateWidget<UInv_InventoryBase>(OwningController.Get(), InventoryMenuClass);
-	InventoryMenu->AddToViewport();
-	CloseInventoryMenu();
+	if (IsValid(InventoryMenu))
+	{
+		InventoryMenu->AddToViewport();
+		CloseInventoryMenu();
+	}
 }
 void UInv_InventoryComponent::OpenInventoryMenu()
 {

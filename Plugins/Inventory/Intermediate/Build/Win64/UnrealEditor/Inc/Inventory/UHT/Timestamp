@@ -1,8 +1,8 @@
 E:\Code\Unreal project\InventoryProject\Plugins\Inventory\Source\Inventory\Public\Interaction\Inv_Highlightable.h
 E:\Code\Unreal project\InventoryProject\Plugins\Inventory\Source\Inventory\Public\Interaction\Inv_HighlightableStaticMesh.h
-E:\Code\Unreal project\InventoryProject\Plugins\Inventory\Source\Inventory\Public\Items\Components\Inv_ItemComponent.h
-E:\Code\Unreal project\InventoryProject\Plugins\Inventory\Source\Inventory\Public\Widgets\HUD\Inv_HUDWidget.h
-E:\Code\Unreal project\InventoryProject\Plugins\Inventory\Source\Inventory\Public\Widgets\Inventory\Spatial\Inv_SpatialInventory.h
-E:\Code\Unreal project\InventoryProject\Plugins\Inventory\Source\Inventory\Public\Widgets\Inventory\InventoryBase\Inv_InventoryBase.h
 E:\Code\Unreal project\InventoryProject\Plugins\Inventory\Source\Inventory\Public\Player\Inv_PlayerController.h
+E:\Code\Unreal project\InventoryProject\Plugins\Inventory\Source\Inventory\Public\Items\Components\Inv_ItemComponent.h
+E:\Code\Unreal project\InventoryProject\Plugins\Inventory\Source\Inventory\Public\Widgets\Inventory\Spatial\Inv_SpatialInventory.h
 E:\Code\Unreal project\InventoryProject\Plugins\Inventory\Source\Inventory\Public\InventoryManagement\Components\Inv_InventoryComponent.h
+E:\Code\Unreal project\InventoryProject\Plugins\Inventory\Source\Inventory\Public\Widgets\HUD\Inv_HUDWidget.h
+E:\Code\Unreal project\InventoryProject\Plugins\Inventory\Source\Inventory\Public\Widgets\Inventory\InventoryBase\Inv_InventoryBase.h

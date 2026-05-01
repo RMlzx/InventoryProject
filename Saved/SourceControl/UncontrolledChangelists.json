@@ -22,6 +22,7 @@
 				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Items/Components/BP_Inv_HighlightableMesh.uasset",
 				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Widgets/Inventory/WBP_Inv_SpatialInventory.uasset",
 				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Input/IA_ToggleInventory.uasset",
+				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/InventoryManagement/Components/BP_Inv_InventoryComponent.uasset",
 				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Items/Components/BP_Inv_Highlightable.uasset",
 				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Widgets/HUD/BP_Inv_HUDWidget.uasset",
 				"E:/Code/Unreal project/InventoryProject/Plugins/Inventory/Content/Player/BP_InvPlayerController.uasset"
